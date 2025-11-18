@@ -1,0 +1,37 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__playwright__playwright_navigate",
+      "Bash(npx playwright:*)",
+      "Bash(npm install:*)",
+      "Bash(npm init:*)",
+      "Bash(playwright install:*)",
+      "Bash(dir:*)",
+      "Bash(npm view:*)",
+      "mcp__playwright__playwright_screenshot",
+      "WebSearch",
+      "mcp__memory__create_entities",
+      "mcp__memory__create_relations",
+      "Bash(npx tailwindcss:*)",
+      "Bash(echo:*)",
+      "Bash(npm search:*)",
+      "Bash(npx tsx:*)",
+      "Bash(claude mcp list:*)",
+      "Bash(claude mcp add:*)",
+      "Bash(npx:*)",
+      "Bash(SUPABASE_URL=https://cnzivlkodnhiikhmtytw.supabase.co SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNueml2bGtvZG5oaWlraG10eXR3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjI5MDUyNDIsImV4cCI6MjA3ODQ4MTI0Mn0.mcFVyJdyCuIrbkHpO2zhDUG84QWiR3hayEcikoHeHQE npx:*)",
+      "Bash(SUPABASE_URL=https://cnzivlkodnhiikhmtytw.supabase.co SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNueml2bGtvZG5oaWlraG10eXR3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjI5MDUyNDIsImV4cCI6MjA3ODQ4MTI0Mn0.mcFVyJdyCuIrbkHpO2zhDUG84QWiR3hayEcikoHeHQE SUPABASE_ACCESS_TOKEN=sbp_39873c3c5b31caf14e3261b8805b888b4e2979f8 npx -y @supabase/mcp-server-supabase:*)",
+      "mcp__supabase__list_projects",
+      "mcp__supabase__list_tables",
+      "mcp__supabase__list_organizations",
+      "mcp__supabase__get_cost",
+      "mcp__supabase__confirm_cost",
+      "mcp__supabase__create_project",
+      "mcp__supabase__get_project_url",
+      "mcp__supabase__get_publishable_keys",
+      "mcp__supabase__get_project"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
